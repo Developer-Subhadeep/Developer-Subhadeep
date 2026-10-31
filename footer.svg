@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title">
+  <title id="title">Animated cyan and indigo wave</title>
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#6366F1" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 54 C180 24 300 82 480 54 S780 24 960 54 S1260 82 1440 54 V112 H0Z" fill="#111C31" opacity=".8">
+    <animate attributeName="d" values="M0 54 C180 24 300 82 480 54 S780 24 960 54 S1260 82 1440 54 V112 H0Z;M0 54 C180 82 300 24 480 54 S780 82 960 54 S1260 24 1440 54 V112 H0Z;M0 54 C180 24 300 82 480 54 S780 24 960 54 S1260 82 1440 54 V112 H0Z" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 42 C180 12 300 70 480 42 S780 12 960 42 S1260 70 1440 42" fill="none" stroke="url(#wave)" stroke-width="2">
+    <animate attributeName="d" values="M0 42 C180 12 300 70 480 42 S780 12 960 42 S1260 70 1440 42;M0 42 C180 70 300 12 480 42 S780 70 960 42 S1260 12 1440 42;M0 42 C180 12 300 70 480 42 S780 12 960 42 S1260 70 1440 42" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 64 C180 34 300 92 480 64 S780 34 960 64 S1260 92 1440 64" fill="none" stroke="#818CF8" stroke-opacity=".28" stroke-width="1">
+    <animate attributeName="d" values="M0 64 C180 34 300 92 480 64 S780 34 960 64 S1260 92 1440 64;M0 64 C180 92 300 34 480 64 S780 92 960 64 S1260 34 1440 64;M0 64 C180 34 300 92 480 64 S780 34 960 64 S1260 92 1440 64" dur="15s" repeatCount="indefinite"/>
+  </path>
+</svg>

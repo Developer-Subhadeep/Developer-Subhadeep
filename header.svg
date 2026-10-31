@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Subhadeep Samal — Java Backend Developer</title>
+  <desc id="description">An animated navy banner with a cyan and indigo glow.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111C31"/>
+      <stop offset="1" stop-color="#080F1D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#93C5FD" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="300" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#background)"/>
+    <rect width="1200" height="300" fill="url(#grid)">
+      <animate attributeName="x" values="0;40;0" dur="24s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="980" cy="145" rx="240" ry="180" fill="url(#glow)">
+      <animate attributeName="opacity" values=".65;1;.65" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="850" cy="64" r="2" fill="#67E8F9" opacity=".8">
+      <animate attributeName="cy" values="64;45;64" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="225" r="2.5" fill="#A5B4FC" opacity=".7">
+      <animate attributeName="cy" values="225;245;225" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="740" cy="190" r="1.5" fill="#67E8F9" opacity=".65">
+      <animate attributeName="cy" values="190;175;190" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 24a24 24 0 0 1 24-24h5v300h-5a24 24 0 0 1-24-24z" fill="url(#accent)"/>
+    <text x="76" y="126" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" letter-spacing="1" opacity="0">
+      Subhadeep Samal
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin=".2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 16;0 0" dur="1.2s" begin=".2s" fill="freeze"/>
+    </text>
+    <text x="78" y="174" fill="url(#accent)" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="3">JAVA BACKEND DEVELOPER</text>
+    <text x="78" y="220" fill="#A9B6CA" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing=".5">BHUBANESWAR, ODISHA</text>
+    <rect x="78" y="242" width="72" height="3" rx="1.5" fill="url(#accent)" opacity=".8"/>
+  </g>
+</svg>

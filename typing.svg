@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-labelledby="title">
+  <title id="title">Java Backend Developer; Spring Boot and REST APIs; Microservices and Cloud; Building scalable systems</title>
+  <defs>
+    <clipPath id="typing">
+      <rect x="140" y="0" width="0" height="64">
+        <animate attributeName="width" values="0;720;720;0;0" keyTimes="0;.04;.20;.22;1" dur="16s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typing2">
+      <rect x="140" y="0" width="0" height="64">
+        <animate attributeName="width" values="0;720;720;0;0" keyTimes="0;.04;.20;.22;1" dur="16s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typing3">
+      <rect x="140" y="0" width="0" height="64">
+        <animate attributeName="width" values="0;720;720;0;0" keyTimes="0;.04;.20;.22;1" dur="16s" begin="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typing4">
+      <rect x="140" y="0" width="0" height="64">
+        <animate attributeName="width" values="0;720;720;0;0" keyTimes="0;.04;.20;.22;1" dur="16s" begin="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect x="120" y="8" width="760" height="48" rx="24" fill="#111C31"/>
+  <rect x="120" y="8" width="3" height="48" rx="1.5" fill="#22D3EE"/>
+  <g fill="#DCE7F5" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500">
+    <g clip-path="url(#typing)"><text x="500" y="39" text-anchor="middle">Java Backend Developer</text></g>
+    <g clip-path="url(#typing2)"><text x="500" y="39" text-anchor="middle">Spring Boot and REST APIs</text></g>
+    <g clip-path="url(#typing3)"><text x="500" y="39" text-anchor="middle">Microservices and Cloud</text></g>
+    <g clip-path="url(#typing4)"><text x="500" y="39" text-anchor="middle">Building scalable systems</text></g>
+  </g>
+</svg>

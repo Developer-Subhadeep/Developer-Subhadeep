@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="188" viewBox="0 0 1200 188" role="img" aria-labelledby="title">
+  <title id="title">Featured projects: Developer-Subhadeep.github.io, StudentReportCard, Daily-Code-practice</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <a href="https://github.com/Developer-Subhadeep/Developer-Subhadeep.github.io">
+    <g>
+      <rect x="24" y="20" width="368" height="148" rx="20" fill="#111C31" stroke="#22D3EE" stroke-opacity=".35" stroke-width="1.5">
+        <animate attributeName="stroke-opacity" values=".22;.48;.22" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="48" y="44" width="4" height="30" rx="2" fill="url(#accent)"/>
+      <text x="68" y="64" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Developer-Subhadeep.github.io</text>
+      <text x="68" y="103" fill="#A9B6CA" font-family="Arial,Helvetica,sans-serif" font-size="14">Portfolio</text>
+      <text x="68" y="140" fill="#67E8F9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600">VIEW REPOSITORY  ↗</text>
+    </g>
+  </a>
+  <a href="https://github.com/Developer-Subhadeep/StudentReportCard">
+    <g>
+      <rect x="416" y="20" width="368" height="148" rx="20" fill="#111C31" stroke="#818CF8" stroke-opacity=".35" stroke-width="1.5">
+        <animate attributeName="stroke-opacity" values=".22;.48;.22" dur="7s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="440" y="44" width="4" height="30" rx="2" fill="url(#accent)"/>
+      <text x="460" y="64" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">StudentReportCard</text>
+      <text x="460" y="103" fill="#A9B6CA" font-family="Arial,Helvetica,sans-serif" font-size="14">Student report card project</text>
+      <text x="460" y="140" fill="#67E8F9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600">VIEW REPOSITORY  ↗</text>
+    </g>
+  </a>
+  <a href="https://github.com/Developer-Subhadeep/Daily-Code-practice">
+    <g>
+      <rect x="808" y="20" width="368" height="148" rx="20" fill="#111C31" stroke="#22D3EE" stroke-opacity=".35" stroke-width="1.5">
+        <animate attributeName="stroke-opacity" values=".22;.48;.22" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="832" y="44" width="4" height="30" rx="2" fill="url(#accent)"/>
+      <text x="852" y="64" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">Daily-Code-practice</text>
+      <text x="852" y="103" fill="#A9B6CA" font-family="Arial,Helvetica,sans-serif" font-size="14">Daily coding practice</text>
+      <text x="852" y="140" fill="#67E8F9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600">VIEW REPOSITORY  ↗</text>
+    </g>
+  </a>
+</svg>
